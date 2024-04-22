@@ -1,0 +1,63 @@
+/* Header.css */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #343a40;
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand img {
+    width: 50px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+  }
+  
+  .navbar-toggler-icon {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 2px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-right: 15px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 767px) {
+    .navbar-brand img {
+      width: 40px; /* Adjust as needed */
+    }
+  
+    .nav-item {
+      margin-right: 10px;
+    }
+  }
+  

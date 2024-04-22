@@ -1,0 +1,114 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "name": "Groceries",
+      "owner": "Alice",
+      "members": ["Bob", "Charlie"],
+      "items": [
+        { "name": "Milk", "quantity": 2, "resolved": false },
+        { "name": "Bread", "quantity": 1, "resolved": false }
+      ],
+      "archived": false
+    },
+    {
+      "id": 2,
+      "name": "Weekend BBQ",
+      "owner": "Bob",
+      "members": ["Alice", "Charlie"],
+      "items": [
+        { "name": "Steaks", "quantity": 4, "resolved": false },
+        { "name": "Burgers", "quantity": 8, "resolved": false }
+      ],
+      "archived": false
+    },
+    {
+      "id": 3,
+      "name": "Home Improvement",
+      "owner": "Charlie",
+      "members": ["Alice", "Bob"],
+      "items": [
+        { "name": "Paint", "quantity": 2, "resolved": false },
+        { "name": "Nails", "quantity": 1, "resolved": false }
+      ],
+      "archived": true
+    },
+    {
+      "id": 4,
+      "name": "Holiday Shopping",
+      "owner": "Alice",
+      "members": ["Bob", "Charlie"],
+      "items": [
+        { "name": "Gifts", "quantity": 10, "resolved": false },
+        { "name": "Decorations", "quantity": 1, "resolved": false }
+      ],
+      "archived": true
+    },
+    {
+      "id": 5,
+      "name": "Fitness Foods",
+      "owner": "Bob",
+      "members": ["Alice", "Charlie"],
+      "items": [
+        { "name": "Chicken Breast", "quantity": 2, "resolved": false },
+        { "name": "Broccoli", "quantity": 1, "resolved": false }
+      ],
+      "archived": false
+    },
+    {
+      "id": 6,
+      "name": "School Supplies",
+      "owner": "Charlie",
+      "members": ["Alice", "Bob"],
+      "items": [
+        { "name": "Pens", "quantity": 5, "resolved": false },
+        { "name": "Notebooks", "quantity": 3, "resolved": false }
+      ],
+      "archived": false
+    },
+    {
+      "id": 7,
+      "name": "Household Essentials",
+      "owner": "Alice",
+      "members": ["Bob", "Charlie"],
+      "items": [
+        { "name": "Toilet Paper", "quantity": 12, "resolved": false },
+        { "name": "Soap", "quantity": 2, "resolved": false }
+      ],
+      "archived": false
+    },
+    {
+      "id": 8,
+      "name": "Movie Night",
+      "owner": "Bob",
+      "members": ["Alice", "Charlie"],
+      "items": [
+        { "name": "Popcorn", "quantity": 1, "resolved": false },
+        { "name": "Soda", "quantity": 2, "resolved": false }
+      ],
+      "archived": false
+    },
+    {
+      "id": 9,
+      "name": "Pet Supplies",
+      "owner": "Charlie",
+      "members": ["Alice", "Bob"],
+      "items": [
+        { "name": "Dog Food", "quantity": 1, "resolved": false },
+        { "name": "Cat Litter", "quantity": 1, "resolved": false }
+      ],
+      "archived": false
+    },
+    {
+      "id": 10,
+      "name": "Weekend Getaway",
+      "owner": "Alice",
+      "members": ["Bob", "Charlie"],
+      "items": [
+        { "name": "Sunscreen", "quantity": 1, "resolved": false },
+        { "name": "Swimsuit", "quantity": 1, "resolved": false }
+      ],
+      "archived": false
+    }
+  ]
+}

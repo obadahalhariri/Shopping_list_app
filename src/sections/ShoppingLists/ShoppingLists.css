@@ -1,0 +1,55 @@
+.shopping-lists-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.shopping-list {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.shopping-list h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.shopping-list p {
+  margin: 5px 0;
+}
+
+.detail-link {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.detail-link:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c82333;
+}
