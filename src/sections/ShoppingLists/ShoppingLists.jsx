@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import shoppingListsData from "../../data/shoppingLists.json";
-import { Link, useLocation} from "react-router-dom"; 
+import { Link } from "react-router-dom"; 
 import {Modal} from '../../components/index'
 import {NewShoppingListForm} from '../../sections/index'
 import "./ShoppingLists.css";
@@ -9,7 +9,6 @@ const ShoppingLists = () => {
   const [shoppingLists, setShoppingLists] = useState([]);
   const [filterArchived, setFilterArchived] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const location = useLocation();
 
   useEffect(() => {
     setShoppingLists(shoppingListsData.lists);
